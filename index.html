@@ -9,6 +9,7 @@
 	<title>Kenzieflix</title>
 
 	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="CSSReset.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!-- FAVICON -->
@@ -34,50 +35,63 @@
 			</header>
 
 			<!-- LISTA DE USUÁRIOS -->
-			<ul>
+			<div class="listprofile">
+				<ul class="users">
 				
-				<!-- USUÁRIO 1 -->
-				<li>
-					<figure>
-						<img src="img/avatar.png" alt="Gabriel">
-						<figcaption>Gabriel</figcaption>
-					</figure>
-
-					<h3>Gabriel</h3>
-				</li>
-				
-				<!-- USUÁRIO 2 -->
-				<li>
-					<figure>
-						<img src="img/avatar1.png" alt="Maria">
-						<figcaption>Maria</figcaption>
-					</figure>
-
-					<h3>Maria</h3>
-				</li>
-				
+					<!-- USUÁRIO 1 -->
+					<li>	
+						<div class="profile1">
+							<img class ="avatar" src="img/avatar.png" alt="Gabriel">			
+		
+							<h3>Gabriel</h3>	
+	
+						</div>
+					</li>					
+						
+					
+					
+					<!-- USUÁRIO 2 -->
+					<li>
+						<div class="profile2">
+							<img class ="avatar" src="img/avatar1.png" alt="Maria">	
+		
+							<h3>Maria</h3>
+						</div>		
+						
+					</li>			
+					
+			
 				<!-- USUÁRIO 3 -->
 				<li>
-					<figure>
-						<img src="img/avatar2.png" alt="Renato">
-						<figcaption>Renato</figcaption>
-					</figure>
+					<div class="profile3">
+						
+						<img class ="avatar" src="img/avatar2.png" alt="Renato">				
 
-					<h3>Renato</h3>
+						<h3>Renato</h3>
+
+					</div>
+
 				</li>
 
 				<!-- ADICIONAR PERFIL-->
 				<li class="addPerfil">
-					<figure>
-						<img src="img/plus-sign.png" alt="Adicionar perfil">
-						<figcaption>Adicionar perfil</figcaption>
-					</figure>
+					<div class="profile">
+					<img src="img/plus-sign.png" alt="Adicionar perfil">				
 
 					<h3>Adicionar perfil</h3>
+
+					</div>
+					
+					
 				</li>
 
 			</ul>
 
+
+			</div>
+			
+			
+			
 			<footer>
 				<button>Gerenciar Perfis</button>
 			</footer>
